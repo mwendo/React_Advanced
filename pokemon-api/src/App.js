@@ -5,6 +5,7 @@ import {useState} from 'react';
 function App() {
   const [pokemon, setPokemon] = useState([]);
 
+  //test comment
   const fetchPokemon = (event) => {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=807")
       .then(res => res.json())
