@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Home path="/home"/>
         <Number_or_Word path="/:num_or_word"/>
-        <ColorfulWord path="/hello/:textColor/:color"/>
+        <ColorfulWord path="/:word/:textColor/:color"/>
       </Router>
     </div>
   );

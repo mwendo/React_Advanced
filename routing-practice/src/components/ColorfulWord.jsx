@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ColorfulWord = ({textColor, color}) => {
+const ColorfulWord = ({textColor, color, word}) => {
     const style = { 
         color: textColor,
         backgroundColor: color
@@ -8,7 +8,7 @@ const ColorfulWord = ({textColor, color}) => {
 
     return (
         <div>
-            <h1 style={style}>hello</h1>
+            <h1 style={style}>{word}</h1>
         </div>
     );
 };
